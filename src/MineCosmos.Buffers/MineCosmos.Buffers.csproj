@@ -4,6 +4,26 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <Version>1.0.0-pre</Version>
+    <PackageProjectUrl>https://github.com/MineCosmos/buffers</PackageProjectUrl>
+    <PackageReadmeFile>README.MD</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/MineCosmos/buffers</RepositoryUrl>
+    <Authors>MineCosmos</Authors>
+    <PackageDescription>buffers; buffer-reader; buffer-writer</PackageDescription>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.MD">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>
