@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <Version>1.0.0-preview</Version>
+    <Version>1.0.1</Version>
     <PackageProjectUrl>https://github.com/MineCosmos/buffers</PackageProjectUrl>
     <PackageReadmeFile>README.MD</PackageReadmeFile>
     <RepositoryUrl>https://github.com/MineCosmos/buffers</RepositoryUrl>
